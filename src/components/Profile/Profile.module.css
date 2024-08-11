@@ -1,13 +1,10 @@
 .profile {
   width: 300px;
-  margin: 0 auto;
+  margin: 50px auto 0; /* Встановлює відступ 50px зверху, вирівнює по центру горизонтально і прибирає відступ знизу */
   padding-top: 20px;
   text-align: center;
   border: 1px solid #222;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: #fff;
 }
 
 .description {
@@ -16,7 +13,7 @@
 
 .avatar {
   width: 100px;
-  margin: 0 auto;
+  margin: 0 auto 20px; /* Вирівнює аватар по центру і додає відступ знизу */
 }
 
 .name {
@@ -47,7 +44,7 @@
 }
 
 .stats li:last-child {
-  border: none;
+  border-right: none;
 }
 
 .label {
